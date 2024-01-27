@@ -1,0 +1,917 @@
+{
+  "mod_elements": [
+    {
+      "name": "Explosion",
+      "type": "potioneffect",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/potion/ExplosionMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "OnExplosionTriggered",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_explosion_triggered",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotionOfExplosion",
+      "type": "potion",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_explosion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfExplosion2",
+      "type": "potion",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_explosion_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfExplosionRecipe1",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_explosion_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfExplosionRecipe1BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "PotionOfExplosionRecipe2",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_explosion_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfExplosionRecipe2BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Shock",
+      "type": "potioneffect",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/potion/ShockMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "OnShockTriggered",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_shock_triggered",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotionOfShock",
+      "type": "potion",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_shock",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfShockRecipe1",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_shock_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfShockRecipe1BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Annihilation",
+      "type": "potioneffect",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annihilation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/potion/AnnihilationMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "OnAnnihilationTriggered",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_annihilation_triggered",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotionOfAnnihilation",
+      "type": "potion",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_annihilation",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfAnnihilationRecipe1",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_annihilation_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfAnnihilationRecipe1BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Warming",
+      "type": "potioneffect",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warming",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/potion/WarmingMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "OnWarmingTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_warming_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotionOfWarming",
+      "type": "potion",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_warming",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfWarmingL",
+      "type": "potion",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_warming_l",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfWarmingRecipe1",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_warming_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfWarmingRecipe1BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "PotionOfWarmingRecipe2",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_warming_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfWarmingRecipe2BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Freezing",
+      "type": "potioneffect",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freezing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/potion/FreezingMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "OnFreezingTick",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_freezing_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotionOfFreezing",
+      "type": "potion",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_freezing",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfFreezingL",
+      "type": "potion",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_freezing_l",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "OnMoistureTick",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_moisture_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Moisture",
+      "type": "potioneffect",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/potion/MoistureMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "PotionOfMoisture",
+      "type": "potion",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_moisture",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfMoistureL",
+      "type": "potion",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_moisture_l",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfFreezingRecipe1",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_freezing_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfFreezingRecipe1BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "PotionOfFreezingRecipe2",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_freezing_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfFreezingRecipe2BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "PotionOfFreezingRecipe3",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_freezing_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfFreezingRecipe3BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "PotionOfMoistureRecipe1",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_moisture_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfMoistureRecipe1BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "PotionOfMoistureRecipe2",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_moisture_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfMoistureRecipe2BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Combustion",
+      "type": "potioneffect",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combustion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/potion/CombustionMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "OnCombustionTick",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_combustion_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/procedures/OnCombustionTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotionOfCombustion",
+      "type": "potion",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_combustion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfCombustionL",
+      "type": "potion",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_combustion_l",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfCombustionRecipe1",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_combustion_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfCombustionRecipe1BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "PotionOfCombustionRecipe2",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_combustion_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfCombustionRecipe2BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "PotionOfCombustionRecipe3",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_combustion_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfCombustionRecipe3BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "SelfDestruction",
+      "type": "potioneffect",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "self_destruction",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/potion/SelfDestructionMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "OnEntityDeath",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_entity_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotionOfSelfDestruction",
+      "type": "potion",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_self_destruction",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfSelfDestruction2",
+      "type": "potion",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_self_destruction_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfSelfDestructionL",
+      "type": "potion",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_self_destruction_l",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionOfSelfDestructionRecipe1",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_self_destruction_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfSelfDestructionRecipe1BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "PotionOfSelfDestructionRecipe2",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_self_destruction_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfSelfDestructionRecipe2BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "PotionOfSelfDestructionRecipe3",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_self_destruction_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfSelfDestructionRecipe3BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "PotionOfSelfDestructionRecipe4",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_self_destruction_recipe_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/recipes/brewing/PotionOfSelfDestructionRecipe4BrewingRecipe.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.splash_potion.effect.potion_of_warming": "Splash Potion of Warming",
+      "item.minecraft.tipped_arrow.effect.potion_of_self_destruction": "Arrow of Self Destruction",
+      "item.minecraft.lingering_potion.effect.potion_of_self_destruction_l": "Lingering Potion of Self Destruction",
+      "effect.rather_more_potions.self_destruction": "Self Destruction",
+      "item.minecraft.potion.effect.potion_of_shock": "Potion of Shock",
+      "item.minecraft.potion.effect.potion_of_explosion_2": "Potion of Explosion",
+      "item.minecraft.tipped_arrow.effect.potion_of_annihilation": "Arrow of Annihilation",
+      "effect.rather_more_potions.moisture": "Moisture",
+      "item.minecraft.potion.effect.potion_of_explosion": "Potion of Explosion",
+      "item.minecraft.lingering_potion.effect.potion_of_self_destruction": "Lingering Potion of Self Destruction",
+      "item.minecraft.lingering_potion.effect.potion_of_warming": "Lingering Potion of Warming",
+      "effect.rather_more_potions.combustion": "Combustion",
+      "item.minecraft.splash_potion.effect.potion_of_combustion": "Splash Potion of Combustion",
+      "item.minecraft.potion.effect.potion_of_combustion": "Potion of Combustion",
+      "item.minecraft.lingering_potion.effect.potion_of_freezing_l": "Lingering Potion of Freezing",
+      "item.minecraft.potion.effect.potion_of_self_destruction_2": "Potion of Self Destruction",
+      "item.minecraft.lingering_potion.effect.potion_of_annihilation": "Lingering Potion of Annihilation",
+      "item.minecraft.splash_potion.effect.potion_of_self_destruction_2": "Splash Potion of Self Destruction",
+      "item.minecraft.potion.effect.potion_of_combustion_l": "Potion of Combustion",
+      "item.minecraft.tipped_arrow.effect.potion_of_self_destruction_l": "Arrow of Self Destruction",
+      "item.minecraft.lingering_potion.effect.potion_of_explosion": "Lingering Potion of Explosion",
+      "item.minecraft.tipped_arrow.effect.potion_of_combustion_l": "Arrow of Combustion",
+      "item.minecraft.tipped_arrow.effect.potion_of_moisture_l": "Arrow of Moisture",
+      "effect.rather_more_potions.annihilation": "Explosion",
+      "item.minecraft.splash_potion.effect.potion_of_warming_l": "Splash Potion of Warming",
+      "item.minecraft.tipped_arrow.effect.potion_of_moisture": "Arrow of Moisture",
+      "item.minecraft.potion.effect.potion_of_warming_l": "Potion of Warming",
+      "item.minecraft.splash_potion.effect.potion_of_freezing": "Splash Potion of Freezing",
+      "item.minecraft.tipped_arrow.effect.potion_of_warming_l": "Arrow of Warming",
+      "item.minecraft.splash_potion.effect.potion_of_explosion_2": "Splash Potion of Explosion",
+      "item.minecraft.lingering_potion.effect.potion_of_moisture_l": "Lingering Potion of Moisture",
+      "item.minecraft.lingering_potion.effect.potion_of_self_destruction_2": "Lingering Potion of Self Destruction",
+      "item.minecraft.lingering_potion.effect.potion_of_explosion_2": "Lingering Potion of Explosion",
+      "item.minecraft.potion.effect.potion_of_self_destruction": "Potion of Self Destruction",
+      "item.minecraft.potion.effect.potion_of_freezing_l": "Potion of Freezing",
+      "item.minecraft.lingering_potion.effect.potion_of_warming_l": "Lingering Potion of Warming",
+      "item.minecraft.splash_potion.effect.potion_of_self_destruction": "Splash Potion of Self Destruction",
+      "item.minecraft.tipped_arrow.effect.potion_of_explosion": "Arrow of Explosion",
+      "item.minecraft.splash_potion.effect.potion_of_combustion_l": "Splash Potion of Combustion",
+      "effect.rather_more_potions.freezing": "Warming",
+      "item.minecraft.lingering_potion.effect.potion_of_shock": "Lingering Potion of Shock",
+      "item.minecraft.lingering_potion.effect.potion_of_freezing": "Lingering Potion of Freezing",
+      "item.minecraft.tipped_arrow.effect.potion_of_freezing_l": "Arrow of Freezing",
+      "item.minecraft.splash_potion.effect.potion_of_moisture_l": "Splash Potion of Moisture",
+      "item.minecraft.splash_potion.effect.potion_of_explosion": "Splash Potion of Explosion",
+      "item.minecraft.splash_potion.effect.potion_of_annihilation": "Splash Potion of Annihilation",
+      "item.minecraft.lingering_potion.effect.potion_of_moisture": "Lingering Potion of Moisture",
+      "item.minecraft.potion.effect.potion_of_freezing": "Potion of Freezing",
+      "item.minecraft.potion.effect.potion_of_moisture_l": "Potion of Moisture",
+      "item.minecraft.tipped_arrow.effect.potion_of_shock": "Arrow of Shock",
+      "effect.rather_more_potions.explosion": "Explosion",
+      "item.minecraft.lingering_potion.effect.potion_of_combustion": "Lingering Potion of Combustion",
+      "item.minecraft.potion.effect.potion_of_moisture": "Potion of Moisture",
+      "effect.rather_more_potions.shock": "Shock",
+      "item.minecraft.potion.effect.potion_of_self_destruction_l": "Potion of Self Destruction",
+      "item.minecraft.tipped_arrow.effect.potion_of_combustion": "Arrow of Combustion",
+      "item.minecraft.tipped_arrow.effect.potion_of_explosion_2": "Arrow of Explosion",
+      "item.minecraft.splash_potion.effect.potion_of_shock": "Splash Potion of Shock",
+      "item.minecraft.tipped_arrow.effect.potion_of_self_destruction_2": "Arrow of Self Destruction",
+      "item.minecraft.splash_potion.effect.potion_of_self_destruction_l": "Splash Potion of Self Destruction",
+      "item.minecraft.tipped_arrow.effect.potion_of_freezing": "Arrow of Freezing",
+      "item.minecraft.lingering_potion.effect.potion_of_combustion_l": "Lingering Potion of Combustion",
+      "item.minecraft.potion.effect.potion_of_annihilation": "Potion of Annihilation",
+      "item.minecraft.tipped_arrow.effect.potion_of_warming": "Arrow of Warming",
+      "item.minecraft.potion.effect.potion_of_warming": "Potion of Warming",
+      "item.minecraft.splash_potion.effect.potion_of_freezing_l": "Splash Potion of Freezing",
+      "effect.rather_more_potions.warming": "Warming",
+      "item.minecraft.splash_potion.effect.potion_of_moisture": "Splash Potion of Moisture"
+    },
+    "zh_cn": {
+      "item.minecraft.splash_potion.effect.potion_of_warming": "喷溅型保暖药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_self_destruction": "自爆之箭",
+      "item.minecraft.lingering_potion.effect.potion_of_self_destruction_l": "滞留型自爆药水",
+      "effect.rather_more_potions.self_destruction": "濒死自爆",
+      "item.minecraft.potion.effect.potion_of_shock": "引雷药水",
+      "item.minecraft.potion.effect.potion_of_explosion_2": "爆炸药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_annihilation": "湮灭之箭",
+      "effect.rather_more_potions.moisture": "湿润",
+      "item.minecraft.potion.effect.potion_of_explosion": "爆炸药水",
+      "item.minecraft.lingering_potion.effect.potion_of_self_destruction": "滞留型自爆药水",
+      "item.minecraft.lingering_potion.effect.potion_of_warming": "滞留型保暖药水",
+      "effect.rather_more_potions.combustion": "燃烧",
+      "item.minecraft.splash_potion.effect.potion_of_combustion": "喷溅型自燃药水",
+      "item.minecraft.potion.effect.potion_of_combustion": "自燃药水",
+      "item.minecraft.lingering_potion.effect.potion_of_freezing_l": "滞留型寒冰药水",
+      "item.minecraft.potion.effect.potion_of_self_destruction_2": "自爆药水",
+      "item.minecraft.lingering_potion.effect.potion_of_annihilation": "滞留型湮灭药水",
+      "item.minecraft.splash_potion.effect.potion_of_self_destruction_2": "喷溅型自爆药水",
+      "item.minecraft.potion.effect.potion_of_combustion_l": "自燃药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_self_destruction_l": "自爆之箭",
+      "item.minecraft.lingering_potion.effect.potion_of_explosion": "滞留型爆炸药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_combustion_l": "自燃之箭",
+      "item.minecraft.tipped_arrow.effect.potion_of_moisture_l": "湿润之箭",
+      "effect.rather_more_potions.annihilation": "湮灭",
+      "item.minecraft.splash_potion.effect.potion_of_warming_l": "喷溅型保暖药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_moisture": "湿润之箭",
+      "item.minecraft.potion.effect.potion_of_warming_l": "保暖药水",
+      "item.minecraft.splash_potion.effect.potion_of_freezing": "喷溅型寒冰药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_warming_l": "保暖之箭",
+      "item.minecraft.splash_potion.effect.potion_of_explosion_2": "喷溅型爆炸药水",
+      "item.minecraft.lingering_potion.effect.potion_of_moisture_l": "滞留型湿润药水",
+      "item.minecraft.lingering_potion.effect.potion_of_self_destruction_2": "滞留型自爆药水",
+      "item.minecraft.lingering_potion.effect.potion_of_explosion_2": "滞留型爆炸药水",
+      "item.minecraft.potion.effect.potion_of_self_destruction": "自爆药水",
+      "item.minecraft.lingering_potion.effect.potion_of_warming_l": "滞留型保暖药水",
+      "item.minecraft.potion.effect.potion_of_freezing_l": "寒冰药水",
+      "item.minecraft.splash_potion.effect.potion_of_self_destruction": "喷溅型自爆药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_explosion": "爆炸之箭",
+      "item.minecraft.splash_potion.effect.potion_of_combustion_l": "喷溅型自燃药水",
+      "effect.rather_more_potions.freezing": "冰冻",
+      "item.minecraft.lingering_potion.effect.potion_of_shock": "滞留型引雷药水",
+      "item.minecraft.lingering_potion.effect.potion_of_freezing": "滞留型寒冰药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_freezing_l": "寒冰之箭",
+      "item.minecraft.splash_potion.effect.potion_of_moisture_l": "喷溅型湿润药水",
+      "item.minecraft.splash_potion.effect.potion_of_explosion": "喷溅型爆炸药水",
+      "item.minecraft.splash_potion.effect.potion_of_annihilation": "喷溅型湮灭药水",
+      "item.minecraft.lingering_potion.effect.potion_of_moisture": "滞留型湿润药水",
+      "item.minecraft.potion.effect.potion_of_freezing": "寒冰药水",
+      "item.minecraft.potion.effect.potion_of_moisture_l": "湿润药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_shock": "引雷之箭",
+      "effect.rather_more_potions.explosion": "爆炸",
+      "item.minecraft.lingering_potion.effect.potion_of_combustion": "滞留型自燃药水",
+      "item.minecraft.potion.effect.potion_of_moisture": "湿润药水",
+      "effect.rather_more_potions.shock": "雷击",
+      "item.minecraft.potion.effect.potion_of_self_destruction_l": "自爆药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_combustion": "自燃之箭",
+      "item.minecraft.tipped_arrow.effect.potion_of_explosion_2": "爆炸之箭",
+      "item.minecraft.splash_potion.effect.potion_of_shock": "喷溅型引雷药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_self_destruction_2": "自爆之箭",
+      "item.minecraft.splash_potion.effect.potion_of_self_destruction_l": "喷溅型自爆药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_freezing": "寒冰之箭",
+      "item.minecraft.lingering_potion.effect.potion_of_combustion_l": "滞留型自燃药水",
+      "item.minecraft.potion.effect.potion_of_annihilation": "湮灭药水",
+      "item.minecraft.tipped_arrow.effect.potion_of_warming": "保暖之箭",
+      "item.minecraft.potion.effect.potion_of_warming": "保暖药水",
+      "item.minecraft.splash_potion.effect.potion_of_freezing_l": "喷溅型寒冰药水",
+      "effect.rather_more_potions.warming": "温暖",
+      "item.minecraft.splash_potion.effect.potion_of_moisture": "喷溅型湿润药水"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rather_more_potions",
+    "modName": "Rather More Potions",
+    "version": "1.0.0",
+    "author": "donmor3000",
+    "websiteURL": "https://donmor.top/",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.rathermorepotions",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

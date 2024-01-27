@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Self Destruction",
+    "splashName": "Splash Potion of Self Destruction",
+    "lingeringName": "Lingering Potion of Self Destruction",
+    "arrowName": "Arrow of Self Destruction",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:SelfDestruction"
+        },
+        "duration": 1800,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

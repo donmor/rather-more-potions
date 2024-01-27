@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Shock",
+    "icon": "shock.png",
+    "color": {
+      "value": -103,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onStarted": {
+      "name": "OnShockTriggered"
+    },
+    "onExpired": {
+      "name": "OnShockTriggered"
+    }
+  }
+}

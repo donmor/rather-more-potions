@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Shock",
+    "splashName": "Splash Potion of Shock",
+    "lingeringName": "Lingering Potion of Shock",
+    "arrowName": "Arrow of Shock",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Shock"
+        },
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

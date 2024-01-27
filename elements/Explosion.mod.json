@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Explosion",
+    "icon": "explosion.png",
+    "color": {
+      "value": -13434880,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onStarted": {
+      "name": "OnExplosionTriggered"
+    },
+    "onExpired": {
+      "name": "OnExplosionTriggered"
+    }
+  }
+}

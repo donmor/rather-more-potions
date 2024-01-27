@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Warming",
+    "splashName": "Splash Potion of Warming",
+    "lingeringName": "Lingering Potion of Warming",
+    "arrowName": "Arrow of Warming",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Warming"
+        },
+        "duration": 9600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

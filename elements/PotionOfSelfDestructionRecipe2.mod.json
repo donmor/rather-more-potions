@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:CUSTOM:PotionOfExplosion2"
+    },
+    "brewingIngredientStack": {
+      "value": "Blocks.SOUL_SAND"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:PotionOfSelfDestruction2"
+    },
+    "name": "potion_of_self_destruction_recipe_2",
+    "namespace": "mod"
+  }
+}

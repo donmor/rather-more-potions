@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Moisture",
+    "splashName": "Splash Potion of Moisture",
+    "lingeringName": "Lingering Potion of Moisture",
+    "arrowName": "Arrow of Moisture",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Moisture"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:AWKWARD"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.BLAZE_ROD"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:PotionOfWarming"
+    },
+    "name": "potion_of_warming_recipe_1",
+    "namespace": "mod"
+  }
+}

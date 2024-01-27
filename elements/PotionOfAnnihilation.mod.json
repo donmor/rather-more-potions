@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Annihilation",
+    "splashName": "Splash Potion of Annihilation",
+    "lingeringName": "Lingering Potion of Annihilation",
+    "arrowName": "Arrow of Annihilation",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Annihilation"
+        },
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
