@@ -21,6 +21,9 @@
       "locked_code": false,
       "registry_name": "on_explosion_triggered",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/procedures/OnExplosionTriggeredProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "amplifier",
@@ -114,6 +117,9 @@
       "locked_code": false,
       "registry_name": "on_shock_triggered",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/procedures/OnShockTriggeredProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -179,6 +185,9 @@
       "locked_code": false,
       "registry_name": "on_annihilation_triggered",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/procedures/OnAnnihilationTriggeredProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -248,6 +257,9 @@
       "locked_code": false,
       "registry_name": "on_warming_tick",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/procedures/OnWarmingTickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -329,6 +341,9 @@
       "locked_code": false,
       "registry_name": "on_freezing_tick",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/procedures/OnFreezingTickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -383,6 +398,9 @@
       "locked_code": false,
       "registry_name": "on_moisture_tick",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/procedures/OnMoistureTickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -637,6 +655,9 @@
       "locked_code": false,
       "registry_name": "on_entity_death",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rathermorepotions/procedures/OnEntityDeathProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -755,10 +776,10 @@
       "item.minecraft.tipped_arrow.effect.potion_of_self_destruction": "Arrow of Self Destruction",
       "item.minecraft.lingering_potion.effect.potion_of_self_destruction_l": "Lingering Potion of Self Destruction",
       "effect.rather_more_potions.self_destruction": "Self Destruction",
-      "item.minecraft.potion.effect.potion_of_shock": "Potion of Shock",
       "item.minecraft.potion.effect.potion_of_explosion_2": "Potion of Explosion",
-      "item.minecraft.tipped_arrow.effect.potion_of_annihilation": "Arrow of Annihilation",
+      "item.minecraft.potion.effect.potion_of_shock": "Potion of Shock",
       "effect.rather_more_potions.moisture": "Moisture",
+      "item.minecraft.tipped_arrow.effect.potion_of_annihilation": "Arrow of Annihilation",
       "item.minecraft.potion.effect.potion_of_explosion": "Potion of Explosion",
       "item.minecraft.lingering_potion.effect.potion_of_self_destruction": "Lingering Potion of Self Destruction",
       "item.minecraft.lingering_potion.effect.potion_of_warming": "Lingering Potion of Warming",
@@ -825,10 +846,10 @@
       "item.minecraft.tipped_arrow.effect.potion_of_self_destruction": "自爆之箭",
       "item.minecraft.lingering_potion.effect.potion_of_self_destruction_l": "滞留型自爆药水",
       "effect.rather_more_potions.self_destruction": "濒死自爆",
-      "item.minecraft.potion.effect.potion_of_shock": "引雷药水",
       "item.minecraft.potion.effect.potion_of_explosion_2": "爆炸药水",
-      "item.minecraft.tipped_arrow.effect.potion_of_annihilation": "湮灭之箭",
+      "item.minecraft.potion.effect.potion_of_shock": "引雷药水",
       "effect.rather_more_potions.moisture": "湿润",
+      "item.minecraft.tipped_arrow.effect.potion_of_annihilation": "湮灭之箭",
       "item.minecraft.potion.effect.potion_of_explosion": "爆炸药水",
       "item.minecraft.lingering_potion.effect.potion_of_self_destruction": "滞留型自爆药水",
       "item.minecraft.lingering_potion.effect.potion_of_warming": "滞留型保暖药水",
